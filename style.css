@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #87ceeb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+#hud {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  color: #fff;
+  font-size: 18px;
+  z-index: 10;
+  text-shadow: 0 0 6px #000;
+}
+
+#hud span {
+  display: block;
+}
